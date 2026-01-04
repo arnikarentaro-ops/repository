@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+    margin-left: 33%;
+    margin-top: 6%;
+}
+.container{
+    border-color: white;
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    position: relative;
+}
+.lefteye{
+    display: inline-block;
+    background-color: black;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    position:absolute;
+    top: 25%;
+    left: 30%;
+}
+.righteye{
+    background-color: black;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    position: absolute;
+    top: 25%;
+    left: 55%;
+}
+.mouth{
+    background-color: black;
+    width: 120px;
+    height: 30px;
+    border-radius: 0px 0px 50px 50px ;
+    
+    position: absolute;
+    top: 65%;
+    left: 37%;
+}
+.hair{
+    background-color: rgb(100, 101, 98);
+    width: 400px;
+    height: 150px;
+    border-radius: 0% 100%;
+    position: absolute;
+    top: -2.5%;
+    left: 23%
+}
+.hair2{
+    background-color: rgb(100, 101, 98); 
+    width: 200px;
+    height: 100px;
+    border-radius: 90% 30%;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
