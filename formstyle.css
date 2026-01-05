@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(13, 83, 46);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 650px;
+}
+form{
+    color: white;
+    background-color: rgba(89, 93, 93, 0.73);
+    text-align: center;
+    width: 600px;
+    font-size: larger;
+    border-radius: 50px;
+}
+div{
+    padding: 1%;
+}
