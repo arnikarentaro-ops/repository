@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(28, 98, 24);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+    padding: 130px;
+    gap: 23px;
+
+}
+.table1{
+    background-color: rgb(29, 52, 3);
+    width:250px ;
+    height: 400px;
+    border-radius: 50px;
+    
+    
+}
+.card{
+    display: flex;
+    align-items: center;
+    gap: 5px;;
+   flex-direction: row;
+    padding: 12px;
+    justify-content: space-between;
+}
+.card h1, h2, h3 {
+    font-size: medium;
+    color: white;
+    padding-left: 68px;
+}
+
+.card h4{
+     color: gray;
+}
+ul{ 
+  list-style: none; 
+  padding-right: 10px; ;   
+}
+.list{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: small;
+    margin: 9px;   
+}
+
+.table2{
+    background-color: rgb(29, 52, 3);
+    width:250px ;
+    height: 400px;
+    border-radius: 50px;
+}
+.table3{
+    background-color: rgb(29, 52, 3);
+    width:250px ;
+    height: 400px;
+    border-radius: 50px;
+}
+.table4{
+    background-color: rgb(29, 52, 3);
+    width:250px ;
+    height: 400px;
+    border-radius: 50px;
+}
+.cardtext p{
+    padding-right: 123px;
+    color: black;
+    margin: 12px;
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 0;
+    position: relative;
+}    
+.cardtext del{
+    padding-right: 150px; 
+    color: rgb(195, 195, 191);
+    font-size: small;
+}
+#red{
+    background-color: rgb(120, 6, 6);
+    width: 16px;
+    height: 17px;
+    margin: 1px;
+    padding-right: 20px;
+    padding-left: 20px; 
+    position: absolute;
+    border-radius: 50px;
+}
